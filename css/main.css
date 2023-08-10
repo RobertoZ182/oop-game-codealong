@@ -1,14 +1,25 @@
-*{
+
+body{
     margin: 0;
     padding: 0;
+    background-color: lightsalmon; 
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-body{
-    background-color: lightsalmon; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+
+#board{
+    background-color: blueviolet;
+    height: 100vh;
+    position: relative;
+}
+
+
+#player{
+    position: absolute; 
+    background-color: black;
+}
+
+.obstacle{
+    background-color: white;
+    position: absolute;
 }
